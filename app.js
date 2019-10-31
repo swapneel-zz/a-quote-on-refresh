@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
 });
 
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4001;
 
 var server = app.listen(port, function(request, response) {
   console.log("Server is up and running on http://localhost:"+port);
